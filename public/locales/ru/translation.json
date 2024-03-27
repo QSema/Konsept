@@ -1,0 +1,150 @@
+{
+  "header": {
+    "0": "Casa",
+    "1": "NEGOZIO",
+    "2": "Chi siamo",
+    "3": "BLOG",
+    "4": "CERCARE",
+    "5": "ViO",
+    "6": "Contatto",
+    "7": "Spedizione Gratuita Per Ordini Superiori a $ 59!"
+  },
+  "home-s1": {
+    "0": "Decora La Tua Casa",
+    "1": "Interni Fatti A Mano",
+    "2": "Prendi Konsept",
+    "3": "Leggi Tutto",
+    "4": "Amiamo Il Lavoro Manuale",
+    "5": "Decorazione D'interni",
+    "6": "Rendi Unico Il Tuo",
+    "7": "Elementi Su Misura"
+  },
+  "home-s2": {
+    "0": "BLOG DI CERAMICA",
+    "1": "Compra Ora",
+    "2": "-25% Di Sconto",
+    "3": "BLOG"
+  },
+  "home-s3": {
+    "0": "Ispirazione",
+    "1": "PENSA IN MODO DIVERSO",
+    "2": "Leggi Tutto"
+  },
+  "home-s4": {
+    "0": "Collezione Estiva",
+    "1": "DESIGN MINIMALE E SEMPLICE"
+  },
+  "home-s5": {
+    "0": "Riproduci"
+  },
+  "home-s6": {
+    "0": "Testimonianze",
+    "1": "INTERIOR È STATO IL MIGLIOR INVESTIMENTO CHE ABBIA MAI FATTO. GLI INTERNI CI HANNO DAVVERO AIUTATO."
+  },
+  "home-s7": {
+    "0": "SERVIZIO 24 ORE SU 24",
+    "1": "RESO GRATUITO",
+    "2": "TRACCIAMENTO DELL'ORDINE",
+    "3": "CONSEGNA VELOCE",
+    "4": "Ulteriori Informazioni"
+  },
+  "home-s8": {
+    "0": "Dose Giornaliera Di Mance",
+    "1": "LEGGI IL NOSTRO BLOG"
+  },
+  "home-s9": {
+    "0": "Disegni Premium",
+    "1": "NEGOZIO ONLINE",
+    "2": "Spedizione Gratuita Su $ 75 +",
+    "3": "Aggiungi Al Carrello"
+  },
+  "home-s10": {
+    "0": "Rimani Aggiornato",
+    "1": "ISCRIVITI ALLA NOSTRA NEWSLETTER",
+    "2": "Acquisto"
+  },
+
+
+  "contact": {
+    "0": "Contattaci",
+    "1": "DOMANDE?",
+    "2": "UFFICIO",
+    "3": "NEGOZIO",
+    "4": "Nome",
+    "5": "E-mail",
+    "6": "Commenti",
+    "7": "Invia",
+    "8":"SIAMO QUI PER TE"
+  },
+
+
+  "faq": {
+    "0": "ViO",
+    "1": "Salvare il nostro ambiente",
+    "2": "SERVIZIO CLIENTI",
+    "3": "Il mio account",
+    "4": "Politiche e procedure aziendali",
+    "5": "Opzioni di pagamento",
+    "6": "Carrello regalo",
+    "7": "Termini e condizioni",
+    "8":"Come faccio ad accedere",
+    "9":"Come funziona la consegna in Europa",
+    "10":"1. IL BRANDING È SEMPLICEMENTE UN MODO PIÙ EFFICIENTE PER VENDERE LE COSE?",
+    "11":"2. IL POSIZIONAMENTO È CIÒ CHE FAI PER FARE PROSPECTING?",
+    "12":"3. IL MARKETING È L'OBIETTIVO FINALE DI UN'AZIENDA?",
+    "13":"4. IL BRANDING È UN MODO PIÙ EFFICIENTE PER VENDERE LE COSE?",
+    "14":"5. IL BRANDING È SEMPLICEMENTE UN MODO PIÙ EFFICIENTE PER VENDERE LE COSE?",
+    "15":"6. IL POSIZIONAMENTO È CIÒ CHE FAI PER FARE PROSPECTING?",
+    "16":"7. IL MARKETING È L'OBIETTIVO FINALE DI UN'AZIENDA?",
+    "17":"8. IL BRANDING È UN MODO PIÙ EFFICIENTE PER VENDERE LE COSE?",
+    "18":"DOMANDE FREQUENTI"
+  },
+
+
+  "wishlist": {
+    "0": "LISTA DEI DESIDERI",
+    "1": "NOME DEL PRODOTTO",
+    "2": "PREZZO UNITARIO",
+    "3": "STATO DELLE SCORTE",
+    "4": "Aggiungi Al Carrello",
+    "5": "POTREBBE PIACERTI",
+    "6": "(2 recensioni del cliente)",
+    "7": "SKU:",
+    "8": "CATEGORIE:"
+  },
+
+
+  "cart": {
+    "0": "CARRELLO",
+    "1": "PRODOTTO",
+    "2": "PREZZO",
+    "3": "QUANTITÀ",
+    "4": "SUBTOTALE",
+    "5": "Codice Cupon",
+    "6": "Applica Cupon",
+    "7": "TOTALI DEL CARRELLO",
+    "8":"TOTALE ARTICOLI",
+    "9":"SPEDIZIONE",
+    "10":"SUBTOTALE",
+    "11":"Acquista ora",
+    "12":"IL TUO CARRELLO È VUOTO",
+    "13":"Acquista ora",
+    "14":"PRODOTTI CONSIGLIATI"
+  },
+
+  "checkout": {
+      "0": "CHECKOUT",
+      "1": "DATI DI FATTURAZIONE",
+      "2": "Nome *",
+      "3": "Cognome *",
+      "4": "Paese/Regione *",
+      "5": "Indirizzo *",
+      "6": "Città *",
+      "7": "Telefono *",
+      "8":"Indirizzo e-mail *",
+      "9":"IL TUO ORDINE",
+      "10":"VASO BLU",
+      "11":"SUBTOTALE",
+      "12":"Compra ora"
+    }
+}

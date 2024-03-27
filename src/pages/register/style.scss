@@ -1,0 +1,98 @@
+.reg-s {
+    width: 100%;
+    height: 46vh;
+    background-image: url("./img/Blog_list_title.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        color: #ffffff;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 40px;
+        line-height: 1.33em;
+        letter-spacing: .23em;
+
+    }
+}
+
+.register-s {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bgMain);
+
+    form {
+
+        .hd {
+            margin-bottom: 18px;
+
+            h2 {
+                font-family: "Josefin Sans", sans-serif;
+                font-weight: 600;
+                text-transform: uppercase;
+                color: var(--bgHEAD);
+                font-size: 29px;
+                line-height: 1.55em;
+                letter-spacing: .2em;
+            }
+        }
+
+        label {
+            font-family: "Open Sans",sans-serif;
+            font-size: 15px;
+            line-height: 1.8em;
+            font-weight: 400;
+            color: var(--bgLlp);
+        }
+
+        input {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            vertical-align: top;
+            margin: 0;
+            padding: 11px 20px;
+            font-family: "EB Garamond",serif;
+            font-size: 18px;
+            font-style: italic;
+            line-height: 24px;
+            font-weight: inherit;
+            color: var(--bgLlp);
+            background-color: transparent;
+            border: 1px solid var(--bgMlp);
+            border-radius: 0;
+            outline: 0;
+            cursor: pointer;
+            margin-bottom: 28px;
+        }
+
+        button {
+            background-color: transparent;
+            border: 1px solid var(--bgLlp);
+            font-family: "EB Garamond",serif;
+            font-size: 18px;
+            font-weight: 400;
+            font-style: italic;
+            color: var(--bgHEAD);
+            padding: 8px 52px;
+            text-transform: capitalize;
+            cursor: pointer;
+            line-height: 2em;
+            border-radius: 0;
+            outline: 0;
+            transition: all .3s ease-in-out;
+
+            &:hover {
+                border-color: var(--bgHEAD);
+            }
+        }
+    }
+}

@@ -1,0 +1,237 @@
+.lrg {
+    width: 100%;
+    height: 46vh;
+    background-image: url("./img/Pricing_plan-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        color: #ffffff;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 40px;
+        line-height: 1.33em;
+        letter-spacing: .23em;
+    }
+}
+
+.hero-section {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 60px 0;
+    background-color: var(--bgMain);
+
+    .up {
+        width: 72%;
+        height: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .mnU {
+            width: 50px;
+            height: 50px;
+            display: none !important;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0%;
+            font-size: larger;
+            box-shadow: none;
+            background-color: transparent !important;
+
+            svg {
+                width: 40px !important;
+                height: auto;
+                color: var(--bgHEAD);
+            }
+
+
+        }
+
+        .ant-modal-content {
+            .ant-modal-body {
+                li {
+                    padding: 0;
+                    margin-bottom: 0;
+                    list-style-type: none;
+                    font-size: 11px;
+                    letter-spacing: .17em;
+                    font-family: "Josefin Sans", sans-serif;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    color: #1d1d1d;
+                }
+            }
+        }
+
+        .inp {
+            width: 23%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            input {
+                background-color: transparent;
+                border: none;
+                border-bottom: 1px solid var(--bgMlp);
+                font-family: "Open Sans", sans-serif;
+                font-size: 11px;
+                font-weight: 400;
+                letter-spacing: .25em;
+                line-height: 24px;
+                font-style: normal;
+                text-transform: uppercase;
+                color: #1d1d1d;
+                padding: 0 0 0 25px;
+                text-align: right;
+                width: 200px;
+                background-color: transparent;
+                outline: 0;
+                cursor: pointer;
+            }
+        }
+
+        .drop {
+            width: 77%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-right: 28px;
+            padding-left: 28px;
+
+            .ant-select {
+                width: 225px !important;
+                display: block;
+                height: 46px;
+                padding: 11px 20px;
+                margin: 0;
+                font-family: "EB Garamond", serif;
+                font-style: italic;
+                font-size: 18px;
+                line-height: 24px;
+                font-weight: 400;
+                color: var(--bgLlp);
+                background-color: transparent;
+                border: 1px solid var(--bgMlp);
+                border-color: var(--bgMlp) !important;
+                border-radius: 0;
+                outline: 0;
+                cursor: pointer;
+                position: relative;
+
+                .ant-select-selector {
+                    color: var(--bgLlp);
+                    background-color: transparent;
+                    // border: none;
+                    border-color: transparent !important;
+                    box-shadow: none !important;
+                }
+
+                .ant-select-arrow {
+                    color: var(--bgLlp);
+                    svg {
+                        color: var(--bgLlp) !important;
+                        width: 10px;
+                    }
+                }
+            }
+
+            .ant-select-dropdow {
+                width: 225px !important;
+                position: absolute;
+                background-color: #fff;
+                border: 1px solid var(--bgMlp) !important;
+                border-radius: 0;
+                z-index: 99999;
+                font-family: "EB Garamond", serif;
+                font-size: 17px !important;
+                line-height: 20px !important;
+                font-weight: 400 !important;
+                font-style: italic;
+                border-top-color: transparent;
+                left: 0;
+                top: 0;
+                cursor: pointer;
+            }
+
+            p {
+                font-family: "EB Garamond", serif;
+                font-size: 18px;
+                font-style: italic;
+                line-height: 1.8em;
+                margin-bottom: 0;
+                font-weight: 400;
+                color: var(--bgLlp);
+            }
+        }
+    }
+
+    .main {
+        width: 72%;
+        height: 80%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+
+
+    }
+
+    .list {
+        width: 23%;
+        height: 100%;
+        margin-top: 25px;
+        
+
+        ul {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+
+            li {
+                list-style-type: none;
+
+                button {
+                    background-color: transparent;
+                    border: none;
+                    color: var(--bgLlp);
+                    transition: color .2s ease-out;
+                    cursor: pointer;
+                    font-size: 14px;
+
+                    &:hover {
+                        color: #beb6b6;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .left {
+        width: 77%;
+        height: 100%;
+        margin-top: 20px;
+
+        .d-flex {
+            .btn-default {
+                color: var(--bgHEAD !important);
+            }
+        }
+
+        
+    }
+}

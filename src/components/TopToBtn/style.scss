@@ -1,0 +1,17 @@
+button {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 8px 8px;
+    font-size: 20px;
+    color: var(--bgMlp);
+    background-color: transparent;
+    border: 1px solid var(--bgMlp);
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+
+    svg {
+        font-size: 25px;
+        color: var(--bgMlp);
+    }
+}

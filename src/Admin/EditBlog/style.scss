@@ -1,0 +1,49 @@
+.add-s {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bgMain);
+
+
+    label {
+        font-family: "EB Garamond", serif;
+        font-size: 18px;
+        font-style: italic;
+        line-height: 24px;
+        font-weight: inherit;
+        color: var(--bgLlp);
+    }
+    input {
+        font-family: "EB Garamond", serif;
+        font-size: 18px;
+        font-style: italic;
+        line-height: 24px;
+        font-weight: inherit;
+        color: var(--bgLlp);
+        background-color: transparent;
+        border: 1px solid var(--bgMlp);
+        border-radius: 0;
+        outline: 0;
+    }
+
+    button {
+        margin-top: 15px;
+        padding: 8px 75px;
+        background-color: transparent;
+        border: 1px solid var(--bgLlp);
+        font-family: "EB Garamond", serif;
+        font-size: 18px;
+        font-weight: 400;
+        font-style: italic;
+        color: var(--bgHEAD);
+        cursor: pointer;
+        line-height: 2em;
+        transition: all .3s ease-in-out;
+
+        &:hover {
+            border-color: var(--bgHEAD);
+        }
+    }
+}

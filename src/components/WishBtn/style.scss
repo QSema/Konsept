@@ -1,0 +1,26 @@
+.btnw {
+    background-color: transparent;
+    border: none;
+    padding: 0 !important;
+    width: 12%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+
+    svg {
+        display: block;
+        color: #1d1d1d;
+        cursor: pointer;
+        transition: all .2s ease-out;
+        line-height: 1.8em;
+        font-weight: 400;
+        font-size: 20px;
+        margin-right: 5px;
+
+        &:hover {
+            color: #8b8b8b;
+        }
+    }
+}

@@ -1,0 +1,208 @@
+.grl-s {
+    width: 100%;
+    height: 46vh;
+    background-image: url("./img/wishlist_1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        color: #ffffff;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 40px;
+        line-height: 1.33em;
+        letter-spacing: .23em;
+        
+    }
+}
+
+.empty {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: var(--bgMain);
+    padding: 60px 0;
+
+    .svg {
+        width: 160px;
+        height: auto;
+        color: var(--bgHEAD);
+        animation-name: identifier;
+        animation-timing-function: linear;
+        animation-delay: .1s;
+        animation-iteration-count: infinite;
+        animation-duration: 3s;
+
+
+        @keyframes identifier {
+            0% {
+                transform: translateY(0px);
+            }
+
+            25% {
+                transform: translateY(10px);
+            }
+
+            50% {
+                transform: translateY(20px);
+            }
+
+            75% {
+                transform: translateY(-10px);
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
+        }
+    }
+
+    p {
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: var(--bgHEAD);
+        font-size: 20px;
+        letter-spacing: .18em;
+        line-height: 1em;
+        margin-top: 50px;
+    }
+
+    .tn {
+        padding: 12px 54px;
+        background-color: transparent;
+        border: 1px solid var(--bgLlp);
+        font-family: "EB Garamond", serif;
+        font-size: 18px;
+        font-weight: 400;
+        font-style: italic;
+        color: var(--bgHEAD);
+        transition: all .3s ease-in-out;
+
+        a {
+            font-family: "EB Garamond", serif;
+            font-size: 18px;
+            font-weight: 400;
+            font-style: italic;
+            color: var(--bgHEAD);
+            text-decoration: none;
+        }
+
+        &:hover {
+            border-color: var(--bgHEAD);
+        }
+    }
+}
+
+.wish-s {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: var(--bgMain);
+
+    thead {
+        width: 100%;
+        height: 90px !important;
+        border-bottom: 1px solid var(--bgMlp);
+
+        th {
+            width: 25%;
+            height: 100%;
+            text-align: center;
+            font-size: 16px;
+            letter-spacing: .14em;
+            padding-bottom: 11px;
+            font-family: "Josefin Sans", sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: var(--bgHEAD);
+            line-height: 1.6em;
+            background-color: var(--bgMain);
+        }
+    }
+
+    tbody {
+        width: 100%;
+
+        tr {
+            width: 100%;
+            height: 215px !important;
+            background-color: var(--bgMain);
+
+
+            td {
+                position: relative;
+                padding: 0 !important;
+                background-color: var(--bgMain);
+
+                .in {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-bottom: 1px solid var(--bgMlp);
+                    background-color: var(--bgMain);
+
+                    h5 {
+                        font-family: "Josefin Sans", sans-serif;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                        font-size: 13px;
+                        line-height: 1.6em;
+                        color: var(--bgHEAD);
+                        letter-spacing: .2em;
+                    }
+
+                    .btn {
+                        font-size: 13px;
+                        color: var(--bgHEAD);
+                        background: none;
+                        line-height: 1.8em;
+                        font-weight: 400;
+                        font-family: "Open Sans", sans-serif;
+                        border: none;
+                        color: var(--bgHEAD);
+                        cursor: pointer;
+                    }
+
+                    p {
+                        font-family: "EB Garamond", serif;
+                        font-size: 17px;
+                        font-weight: 400;
+                        font-style: italic;
+                        color: var(--bgHEAD);
+                    }
+
+                    .tn {
+                        padding: 12px 54px;
+                        background-color: transparent;
+                        border: 1px solid var(--bgLlp);
+                        font-family: "EB Garamond", serif;
+                        font-size: 18px;
+                        font-weight: 400;
+                        font-style: italic;
+                        color: var(--bgHEAD);
+                        transition: all .3s ease-in-out;
+
+                        &:hover {
+                            border-color: var(--bgHEAD);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

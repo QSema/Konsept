@@ -1,0 +1,72 @@
+.s-ab {
+    width: 100%;
+    height: 46vh;
+    background-image: url("./img/Team.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        color: #ffffff;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 40px;
+        line-height: 1.33em;
+        letter-spacing: .23em;
+
+    }
+}
+
+.add-s {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bgMain);
+
+
+    label {
+        font-family: "EB Garamond", serif;
+        font-size: 18px;
+        font-style: italic;
+        line-height: 24px;
+        font-weight: inherit;
+        color: var(--bgLlp);
+    }
+    input {
+        font-family: "EB Garamond", serif;
+        font-size: 18px;
+        font-style: italic;
+        line-height: 24px;
+        font-weight: inherit;
+        color: var(--bgLlp);
+        background-color: transparent;
+        border: 1px solid var(--bgMlp);
+        border-radius: 0;
+        outline: 0;
+    }
+
+    button {
+        margin-top: 15px;
+        padding: 8px 75px;
+        background-color: transparent;
+        border: 1px solid var(--bgLlp);
+        font-family: "EB Garamond", serif;
+        font-size: 18px;
+        font-weight: 400;
+        font-style: italic;
+        color: var(--bgHEAD);
+        cursor: pointer;
+        line-height: 2em;
+        transition: all .3s ease-in-out;
+
+        &:hover {
+            border-color: var(--bgHEAD);
+        }
+    }
+}

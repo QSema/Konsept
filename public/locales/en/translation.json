@@ -1,0 +1,151 @@
+{
+  "header": {
+    "0": "Home",
+    "1": "SHOP",
+    "2": "ABOUT US",
+    "3": "BLOG",
+    "4": "SEARCH",
+    "5": "FAQ",
+    "6": "Contact",
+    "7": "Free shipping for orders over $59!"
+  },
+  "home-s1": {
+    "0": "Adorn Your Home",
+    "1": "Handmade Interiors",
+    "2": "Get Konsept",
+    "3": "Read More",
+    "4": "We Love Handmade",
+    "5": "Interior Decoration",
+    "6": "Make Uniquely Yours",
+    "7": "Bespoke Elements"
+  },
+  "home-s2": {
+    "0": "CERAMICS BLOG",
+    "1": "Shop Now",
+    "2": "-25% off",
+    "3": "BLOG"
+  },
+  "home-s3": {
+    "0": "Inspiration",
+    "1": "THINK DIFFERENT",
+    "2": "Read More"
+  },
+  "home-s4": {
+    "0": "Summer Collection",
+    "1": "MINIMAL & SIMPLE DESIGN"
+  },
+  "home-s5": {
+    "0": "Play"
+  },
+  "home-s6": {
+    "0": "Testimonials",
+    "1": "INTERIOR WAS THE BEST INVESTMENT I EVER MADE. INTERIOR HAS REALLY HELPED US."
+  },
+  "home-s7": {
+    "0": "24H SERVICE",
+    "1": "FREE RETURNS",
+    "2": "ORDER TRACKING",
+    "3": "FAST DELIVERY",
+    "4": "More Info"
+  },
+  "home-s8": {
+    "0": "Daily Dose of Tips",
+    "1": "READ OUR BLOG"
+  },
+  "home-s9": {
+    "0": "Premium Designs",
+    "1": "ONLINE STORE",
+    "2": "Free Shipping On $75+",
+    "3": "Add To Cart"
+  },
+  "home-s10": {
+    "0": "Stay Up to Date",
+    "1": "JOIN OUR NEWSLETTER",
+    "2": "Purchase"
+  },
+
+
+  "contact": {
+    "0": "Contact Us",
+    "1": "GOT ANY QUESTIONS?",
+    "2": "OFFICE",
+    "3": "STORE",
+    "4": "Name",
+    "5": "Email",
+    "6": "Comments",
+    "7": "Send",
+    "8":"WE ARE HERE FOR YOU"
+  },
+
+
+  "faq": {
+    "0": "FAQ",
+    "1": "Saving our environment",
+    "2": "CUSTOMER SERVICES",
+    "3": "My Account",
+    "4": "Company Policies & Procedures",
+    "5": "Payment Options",
+    "6": "Gift Cart",
+    "7": "Terms & Conditions",
+    "8":"How do I Login",
+    "9":"How Delivery works in Europe",
+    "10":"1. BRANDING IS SIMPLY A MORE EFFICIENT WAY TO SELL THINGS?",
+    "11":"2. POSITIONING IS WHAT YOU DO TO PROSPECT?",
+    "12":"3. MARKETING IS A COMPANY’S ULTIMATE OBJECTIVE?",
+    "13":"4. BRANDING IS A MORE EFFICIENT WAY TO SELL THINGS?",
+    "14":"5. BRANDING IS SIMPLY A MORE EFFICIENT WAY TO SELL THINGS?",
+    "15":"6. POSITIONING IS WHAT YOU DO TO PROSPECT?",
+    "16":"7. MARKETING IS A COMPANY’S ULTIMATE OBJECTIVE?",
+    "17":"8. BRANDING IS A MORE EFFICIENT WAY TO SELL THINGS?",
+    "18":"FREQUENTLY ASKED QUESTIONS"
+  },
+
+
+  "wishlist": {
+    "0": "WISHLIST",
+    "1": "PRODUCT NAME",
+    "2": "UNIT PRICE",
+    "3": "STOCK STATUS",
+    "4": "Add To Cart",
+    "5": "YOU MIGHT LIKE THIS",
+    "6": "(2 costumer rewiews)",
+    "7": "SKU:",
+    "8": "CATEGORIES:"
+  },
+
+
+  "cart": {
+    "0": "CART",
+    "1": "PRODUCT",
+    "2": "PRICE",
+    "3": "QUANTITY",
+    "4": "SUBTOTAL",
+    "5": "Cupon code",
+    "6": "Apply Cupon",
+    "7": "CART TOTALS",
+    "8":"TOTAL ITEMS",
+    "9":"SHIPPING",
+    "10":"SUBTOTAL",
+    "11":"Buy Now",
+    "12":"YOUR CART IS EMPTY",
+    "13":"Shop Now",
+    "14":"RECOMENDED PRODUCTS"
+  },
+
+
+  "checkout": {
+    "0": "CHECKOUT",
+    "1": "BILLING DETAILS",
+    "2": "First name *",
+    "3": "Last name *",
+    "4": "Country / Region *",
+    "5": "Street address *",
+    "6": "Town / City *",
+    "7": "Phone *",
+    "8":"Email address *",
+    "9":"YOUR ORDER",
+    "10":"BLUE VASE",
+    "11":"SUBTOTAL",
+    "12":"Buy Now"
+  }
+}
